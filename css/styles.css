@@ -180,6 +180,12 @@ ul {
   cursor: pointer;
 }
 
+.button:hover,
+.button:focus {
+  background-color: var(--white-text-color);
+  color: var(--accent-focus-color);
+}
+
 /* section список преимуществ */
 
 .advantages {
@@ -504,6 +510,11 @@ ul {
   width: 24px;
   height: 24px;
   margin-left: 10px;
+  fill: var(--white-text-color);
+}
+
+.button:hover .svg-subscribe {
+  fill: var(--accent-focus-color);
 }
 
 /* портфолио */
