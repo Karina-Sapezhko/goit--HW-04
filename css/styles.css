@@ -113,23 +113,18 @@ ul {
   color: var(--accent-focus-color);
 }
 
-.contacts:hover .svg-mail-tel,
-.contacts:focus .svg-mail-tel {
-  fill: currentColor;
-}
-
 .svg-mail-tel {
   margin-right: 10px;
-  fill: #757575;
+  fill: currentColor;
+  vertical-align: middle;
 }
 
 /* section hero */
 
 .hero {
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-
+  display: flex;
+  justify-content: center;
   max-width: 1600px;
   height: 600px;
   background-color: #757575;
@@ -147,11 +142,9 @@ ul {
 }
 
 .hero-holder {
-  display: inline-block;
+  display: block;
   max-width: 620px;
   margin: auto;
-  height: auto;
-  justify-content: center;
 }
 
 .hero-title {
@@ -406,7 +399,7 @@ ul {
 
 .item-client .link-logo-company:hover,
 .item-client .link-logo-company:focus {
-  border: 2px solid var(--accent-focus-color);
+  border: 1px solid var(--accent-focus-color);
 }
 
 .link-logo-company:hover .svg-logo,
@@ -510,11 +503,7 @@ ul {
   width: 24px;
   height: 24px;
   margin-left: 10px;
-  fill: var(--white-text-color);
-}
-
-.button:hover .svg-subscribe {
-  fill: var(--accent-focus-color);
+  fill: currentColor;
 }
 
 /* портфолио */
